@@ -20,17 +20,22 @@ public class Servidor {
         
         // Notifica os usuarios se o produto desejado esta disponivel
         notificaUsuario();
-        
-        //objeto supermercado com tarefas relacionadas ao servidor
-        servidorSupermercado supermercado = new servidorSupermercado();
-
-        //inicia thread para as tarefas relacionadas ao servidor
-        Thread threadServidor = new Thread(supermercado);
-        threadServidor.start();
 
         try {
-            ServerSocket server = new ServerSocket(12345);
-            System.out.println("Servidor aberto - porta 12345");
+            System.out.print("Qual porta o servidor sera aberto? ");
+            
+            Scanner s = new Scanner(System.in);
+            int porta = s.nextInt();
+            
+            ServerSocket server = new ServerSocket(porta);
+            System.out.println("Servidor aberto");
+            
+            //objeto supermercado com tarefas relacionadas ao servidor
+            servidorSupermercado supermercado = new servidorSupermercado();
+
+            //inicia thread para as tarefas relacionadas ao servidor
+            Thread threadServidor = new Thread(supermercado);
+            threadServidor.start();
 
             while (true) {
                 Socket cliente = server.accept();
