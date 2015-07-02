@@ -34,6 +34,10 @@ Foi utilizado o padrão de projeto 'Iterator' em todas os métodos nas quais per
 
 Notificação por e-mail quando produto não está disponivel ou quando o usuario requisitar um produto.
 
+É necessário fazer o download da biblioteca javamail, que está no link abaixo e adicionar a biblioteca no projeto.
+
+http://www.oracle.com/technetwork/java/index-138643.html
+
 O email usado para enviar a notificação é pootrab4@gmail.com, e senha pootrab44.
 ```
 
