@@ -4,27 +4,22 @@ Willian Gomes de Oliveira, 8922305.
 
 Trabalho feito no linux, usando NetBeans IDE 8.0.2
 
-Como executar
-- Abra o terminal
-- Navegue até trab3.jar
-- Digite: java -jar trab3.jar
-
 Como compilar e executar
-- Pelo terminal, navegue até o diretório src
-- digite para compilar: javac *.java
-- digite para executar: java Main
+- Crie um novo projeto
+- Insera os arquivos fontes
+- Adicione a biblioteca javaMail no projeto
+- Execute primeiro o servidor que está no pacote Supermarket.Servidor
+- Em seguida execute o cliente que está no pacote Supermarket.Cliente
 
 Instruções de funcionamento
 
 O programa foi dividido em duas partes: Servidor e Cliente.
 
 Servidor:
--
--
+- Ao executar o servidor é necessario informar qual porta será aberta.
 
 Cliente:
--
--
+- Ao executar o cliente é necessario informar qual IP e Porta que deseja conectar.
 
 Parte Extra:
 
