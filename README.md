@@ -7,7 +7,7 @@ Trabalho feito no linux, usando NetBeans IDE 8.0.2
 Como compilar e executar
 - Crie um novo projeto
 - Insira os arquivos fontes
-- Adicione a biblioteca javaMail no projeto
+- Adicione a biblioteca javaMail no projeto (link para download da biblioteca logo abaixo).
 - Execute primeiro o servidor que está no pacote Supermarket.Servidor
 - Em seguida execute o cliente que está no pacote Supermarket.Cliente
 
